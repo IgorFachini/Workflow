@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="nde:model">
+    <imports>
+        <import prefix="d" uri="http://www.alfresco.org/model/dictionary/1.0"/>
+        <import prefix="cm" uri="http://www.alfresco.org/model/content/1.0"/>
+        <import prefix="bpm" uri="http://www.alfresco.org/model/bpm/1.0"/>
+    </imports>
+    <namespaces>
+        <namespace prefix="nde" uri="http://www.alfresco.org/model/dynamic-workflow/nde/1.0"/>
+    </namespaces>
+    <constraints>
+        <constraint type="LIST" name="nde:revisortransitionslist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Approve</value>
+                    <value>Reject</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:1cargahorarialist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Integral</value>
+                    <value>Parcial</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:1titulolist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Especialista</value>
+                    <value>Mestre</value>
+                    <value>Doutor</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:2cargahorarialist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Integral</value>
+                    <value>Parcial</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:2titulolist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Especialista</value>
+                    <value>Mestre</value>
+                    <value>Doutor</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:3cargahorarialist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Integral</value>
+                    <value>Parcial</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:3titulolist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Especialista</value>
+                    <value>Mestre</value>
+                    <value>Doutor</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:4cargahorarialist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Integral</value>
+                    <value>Parcial</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:4titulolist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Especialista</value>
+                    <value>Mestre</value>
+                    <value>Doutor</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:5cargahorarialist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Integral</value>
+                    <value>Parcial</value>
+                </list>
+            </parameter>
+        </constraint>
+        <constraint type="LIST" name="nde:5titulolist">
+            <parameter name="allowedValues">
+                <list>
+                    <value>Especialista</value>
+                    <value>Mestre</value>
+                    <value>Doutor</value>
+                </list>
+            </parameter>
+        </constraint>
+    </constraints>
+    <types>
+        <type name="nde:revisor">
+            <parent>bpm:activitiOutcomeTask</parent>
+            <properties>
+                <property name="nde:revisortransitions">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:revisortransitionslist"/>
+                    </constraints>
+                </property>
+            </properties>
+            <associations/>
+            <overrides>
+                <property name="bpm:outcomePropertyName">
+                    <default>{http://www.alfresco.org/model/dynamic-workflow/nde/1.0}revisortransitions</default>
+                </property>
+            </overrides>
+            <mandatory-aspects>
+                <aspect>nde:nomedocurso</aspect>
+                <aspect>nde:nomedocordenador</aspect>
+                <aspect>nde:1nomedoprofessor</aspect>
+                <aspect>nde:1cargahoraria</aspect>
+                <aspect>nde:1titulo</aspect>
+                <aspect>nde:2nomedoprofessor</aspect>
+                <aspect>nde:2cargahoraria</aspect>
+                <aspect>nde:2titulo</aspect>
+                <aspect>nde:3nomedoprofessor</aspect>
+                <aspect>nde:3cargahoraria</aspect>
+                <aspect>nde:3titulo</aspect>
+                <aspect>nde:4nomedoprofessor</aspect>
+                <aspect>nde:4cargahoraria</aspect>
+                <aspect>nde:4titulo</aspect>
+                <aspect>nde:5nomedoprofessor</aspect>
+                <aspect>nde:5cargahoraria</aspect>
+                <aspect>nde:5titulo</aspect>
+            </mandatory-aspects>
+        </type>
+        <type name="nde:start">
+            <parent>bpm:startTask</parent>
+            <properties>
+                <property name="nde:numerominimodeaprovadores">
+                    <type>d:double</type>
+                    <protected>false</protected>
+                    <mandatory>true</mandatory>
+                    <multiple>false</multiple>
+                </property>
+                <property name="nde:email">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                </property>
+            </properties>
+            <associations>
+                <association name="nde:proacad">
+                    <title>PROACAD</title>
+                    <source>
+                        <mandatory>true</mandatory>
+                        <many>false</many>
+                    </source>
+                    <target>
+                        <class>cm:person</class>
+                        <mandatory>true</mandatory>
+                        <many>false</many>
+                    </target>
+                </association>
+            </associations>
+            <mandatory-aspects>
+                <aspect>nde:nomedocurso</aspect>
+                <aspect>nde:nomedocordenador</aspect>
+                <aspect>nde:1nomedoprofessor</aspect>
+                <aspect>nde:1cargahoraria</aspect>
+                <aspect>nde:1titulo</aspect>
+                <aspect>nde:2nomedoprofessor</aspect>
+                <aspect>nde:2cargahoraria</aspect>
+                <aspect>nde:2titulo</aspect>
+                <aspect>nde:3nomedoprofessor</aspect>
+                <aspect>nde:3cargahoraria</aspect>
+                <aspect>nde:3titulo</aspect>
+                <aspect>nde:4nomedoprofessor</aspect>
+                <aspect>nde:4cargahoraria</aspect>
+                <aspect>nde:4titulo</aspect>
+                <aspect>nde:5nomedoprofessor</aspect>
+                <aspect>nde:5cargahoraria</aspect>
+                <aspect>nde:5titulo</aspect>
+            </mandatory-aspects>
+        </type>
+    </types>
+    <aspects>
+        <aspect name="nde:nomedocurso">
+            <properties>
+                <property name="nde:nomedocurso">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>true</mandatory>
+                    <multiple>false</multiple>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:2nomedoprofessor">
+            <properties>
+                <property name="nde:2nomedoprofessor">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>true</mandatory>
+                    <multiple>false</multiple>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:3titulo">
+            <properties>
+                <property name="nde:3titulo">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:3titulolist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:5nomedoprofessor">
+            <properties>
+                <property name="nde:5nomedoprofessor">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>true</mandatory>
+                    <multiple>false</multiple>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:4nomedoprofessor">
+            <properties>
+                <property name="nde:4nomedoprofessor">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>true</mandatory>
+                    <multiple>false</multiple>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:1titulo">
+            <properties>
+                <property name="nde:1titulo">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:1titulolist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:5cargahoraria">
+            <properties>
+                <property name="nde:5cargahoraria">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:5cargahorarialist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:2titulo">
+            <properties>
+                <property name="nde:2titulo">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:2titulolist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:nomedocordenador">
+            <properties>
+                <property name="nde:nomedocordenador">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:1nomedoprofessor">
+            <properties>
+                <property name="nde:1nomedoprofessor">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>true</mandatory>
+                    <multiple>false</multiple>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:1cargahoraria">
+            <properties>
+                <property name="nde:1cargahoraria">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:1cargahorarialist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:3cargahoraria">
+            <properties>
+                <property name="nde:3cargahoraria">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:3cargahorarialist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:5titulo">
+            <properties>
+                <property name="nde:5titulo">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:5titulolist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:3nomedoprofessor">
+            <properties>
+                <property name="nde:3nomedoprofessor">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>true</mandatory>
+                    <multiple>false</multiple>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:4cargahoraria">
+            <properties>
+                <property name="nde:4cargahoraria">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:4cargahorarialist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:4titulo">
+            <properties>
+                <property name="nde:4titulo">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:4titulolist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+        <aspect name="nde:2cargahoraria">
+            <properties>
+                <property name="nde:2cargahoraria">
+                    <type>d:text</type>
+                    <protected>false</protected>
+                    <mandatory>false</mandatory>
+                    <multiple>false</multiple>
+                    <constraints>
+                        <constraint ref="nde:2cargahorarialist"/>
+                    </constraints>
+                </property>
+            </properties>
+        </aspect>
+    </aspects>
+</model>

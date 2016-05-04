@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alfresco-configuration>
+    <config condition="nde:revisor" evaluator="task-type">
+        <forms>
+            <form>
+                <field-visibility>
+                    <show id="nde:nomedocurso"/>
+                    <show id="nde:nomedocordenador"/>
+                    <show id="nde:1nomedoprofessor"/>
+                    <show id="nde:1cargahoraria"/>
+                    <show id="nde:1titulo"/>
+                    <show id="nde:2nomedoprofessor"/>
+                    <show id="nde:2cargahoraria"/>
+                    <show id="nde:2titulo"/>
+                    <show id="nde:3nomedoprofessor"/>
+                    <show id="nde:3cargahoraria"/>
+                    <show id="nde:3titulo"/>
+                    <show id="nde:4nomedoprofessor"/>
+                    <show id="nde:4cargahoraria"/>
+                    <show id="nde:4titulo"/>
+                    <show id="nde:5nomedoprofessor"/>
+                    <show id="nde:5cargahoraria"/>
+                    <show id="nde:5titulo"/>
+                    <show id="nde:revisortransitions"/>
+                </field-visibility>
+                <appearance>
+                    <set template="/org/alfresco/components/form/2-column-set.ftl" appearance="title" label-id="Sobre" id="info"/>
+                    <field set="info" label-id="Nome do curso" id="nde:nomedocurso">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="info" label-id="Nome do cordenador" id="nde:nomedocordenador">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <set template="/org/alfresco/components/form/3-column-set.ftl" appearance="title" label-id="Professores indicados" id="professoresindicados"/>
+                    <field set="professoresindicados" label-id="1 Nome do professor" id="nde:1nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id=" 1 Carga horaria" id="nde:1cargahoraria">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="1 Titulo" id="nde:1titulo">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="2 Nome do professor" id="nde:2nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="2 Carga horaria" id="nde:2cargahoraria">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="2 Titulo" id="nde:2titulo">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="3 Nome do professor" id="nde:3nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="3 Carga horaria" id="nde:3cargahoraria">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="3 Titulo" id="nde:3titulo">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="4 Nome do professor" id="nde:4nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="4 Carga horaria" id="nde:4cargahoraria">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="4 Titulo" id="nde:4titulo">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="5 Nome do professor" id="nde:5nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="5 Carga horaria" id="nde:5cargahoraria">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <field set="professoresindicados" label-id="5 Titulo" id="nde:5titulo">
+                        <control template="/org/alfresco/components/form/controls/info.ftl"/>
+                    </field>
+                    <set id="response"/>
+                    <field set="response" id="nde:revisortransitions">
+                        <control template="/org/alfresco/components/form/controls/workflow/activiti-transitions.ftl"/>
+                    </field>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+    <config condition="activiti$NDE" evaluator="string-compare">
+        <forms>
+            <form>
+                <field-visibility>
+                    <show id="nde:proacad"/>
+                    <show id="bpm:workflowDueDate"/>
+                    <show id="nde:numerominimodeaprovadores"/>
+                    <show id="bpm:workflowPriority"/>
+                    <show id="nde:nomedocurso"/>
+                    <show id="nde:email"/>
+                    <show id="nde:nomedocordenador"/>
+                    <show id="nde:1nomedoprofessor"/>
+                    <show id="nde:1cargahoraria"/>
+                    <show id="nde:1titulo"/>
+                    <show id="nde:2nomedoprofessor"/>
+                    <show id="nde:2cargahoraria"/>
+                    <show id="nde:2titulo"/>
+                    <show id="nde:3nomedoprofessor"/>
+                    <show id="nde:3cargahoraria"/>
+                    <show id="nde:3titulo"/>
+                    <show id="nde:4nomedoprofessor"/>
+                    <show id="nde:4cargahoraria"/>
+                    <show id="nde:4titulo"/>
+                    <show id="nde:5nomedoprofessor"/>
+                    <show id="nde:5cargahoraria"/>
+                    <show id="nde:5titulo"/>
+                    <show id="transitions"/>
+                </field-visibility>
+                <appearance>
+                    <set template="/org/alfresco/components/form/2-column-set.ftl" appearance="title" label-id="Sobre" id="info"/>
+                    <field set="info" id="nde:proacad"/>
+                    <field set="info" label-id="workflow.field.due" id="bpm:workflowDueDate">
+                        <control template="/org/alfresco/components/form/controls/date.ftl">
+                            <control-param name="showTime">false</control-param>
+                            <control-param name="submitTime">false</control-param>
+                        </control>
+                    </field>
+                    <field set="info" label-id="workflow.field.due" id="bpm:workflowDueDate">
+                        <control template="/org/alfresco/components/form/controls/date.ftl">
+                            <control-param name="showTime">false</control-param>
+                            <control-param name="submitTime">false</control-param>
+                        </control>
+                    </field>
+                    <field set="info" label-id="Numero minimo de aprovadores" id="nde:numerominimodeaprovadores">
+                        <control template="/org/alfresco/components/form/controls/number.ftl"/>
+                    </field>
+                    <field set="info" label-id="workflow.field.priority" id="bpm:workflowPriority">
+                        <control template="/org/alfresco/components/form/controls/workflow/priority.ftl"/>
+                    </field>
+                    <set template="/org/alfresco/components/form/3-column-set.ftl" appearance="title" label-id="Grupo" id="grupo"/>
+                    <field set="grupo" label-id="Nome do curso" id="nde:nomedocurso">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="Email" id="nde:email">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="Nome do cordenador" id="nde:nomedocordenador">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="1 Nome do professor" id="nde:1nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id=" 1 Carga horaria" id="nde:1cargahoraria"/>
+                    <field set="grupo" label-id=" 1 Titulo" id="nde:1titulo"/>
+                    <field set="grupo" label-id="2 Nome do professor" id="nde:2nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="2 Carga horaria" id="nde:2cargahoraria"/>
+                    <field set="grupo" label-id="2 Titulo" id="nde:2titulo"/>
+                    <field set="grupo" label-id="3 Nome do professor" id="nde:3nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="3 Carga horaria" id="nde:3cargahoraria"/>
+                    <field set="grupo" label-id="3 Titulo" id="nde:3titulo"/>
+                    <field set="grupo" label-id="4 Nome do professor" id="nde:4nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="4 Carga horaria" id="nde:4cargahoraria"/>
+                    <field set="grupo" label-id="4 Titulo" id="nde:4titulo"/>
+                    <field set="grupo" label-id="5 Nome do professor" id="nde:5nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="5 Carga horaria" id="nde:5cargahoraria"/>
+                    <field set="grupo" label-id="5 Titulo" id="nde:5titulo"/>
+                    <set id="response"/>
+                    <field set="response" id="transitions"/>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+    <config condition="nde:start" evaluator="task-type">
+        <forms>
+            <form>
+                <field-visibility>
+                    <show id="nde:proacad"/>
+                    <show id="bpm:workflowDueDate"/>
+                    <show id="nde:numerominimodeaprovadores"/>
+                    <show id="bpm:workflowPriority"/>
+                    <show id="nde:nomedocurso"/>
+                    <show id="nde:email"/>
+                    <show id="nde:nomedocordenador"/>
+                    <show id="nde:1nomedoprofessor"/>
+                    <show id="nde:1cargahoraria"/>
+                    <show id="nde:1titulo"/>
+                    <show id="nde:2nomedoprofessor"/>
+                    <show id="nde:2cargahoraria"/>
+                    <show id="nde:2titulo"/>
+                    <show id="nde:3nomedoprofessor"/>
+                    <show id="nde:3cargahoraria"/>
+                    <show id="nde:3titulo"/>
+                    <show id="nde:4nomedoprofessor"/>
+                    <show id="nde:4cargahoraria"/>
+                    <show id="nde:4titulo"/>
+                    <show id="nde:5nomedoprofessor"/>
+                    <show id="nde:5cargahoraria"/>
+                    <show id="nde:5titulo"/>
+                    <show id="transitions"/>
+                </field-visibility>
+                <appearance>
+                    <set template="/org/alfresco/components/form/2-column-set.ftl" appearance="title" label-id="Sobre" id="info"/>
+                    <field set="info" id="nde:proacad"/>
+                    <field set="info" label-id="workflow.field.due" id="bpm:workflowDueDate">
+                        <control template="/org/alfresco/components/form/controls/date.ftl">
+                            <control-param name="showTime">false</control-param>
+                            <control-param name="submitTime">false</control-param>
+                        </control>
+                    </field>
+                    <field set="info" label-id="workflow.field.due" id="bpm:workflowDueDate">
+                        <control template="/org/alfresco/components/form/controls/date.ftl">
+                            <control-param name="showTime">false</control-param>
+                            <control-param name="submitTime">false</control-param>
+                        </control>
+                    </field>
+                    <field set="info" label-id="Numero minimo de aprovadores" id="nde:numerominimodeaprovadores">
+                        <control template="/org/alfresco/components/form/controls/number.ftl"/>
+                    </field>
+                    <field set="info" label-id="workflow.field.priority" id="bpm:workflowPriority">
+                        <control template="/org/alfresco/components/form/controls/workflow/priority.ftl"/>
+                    </field>
+                    <set template="/org/alfresco/components/form/3-column-set.ftl" appearance="title" label-id="Grupo" id="grupo"/>
+                    <field set="grupo" label-id="Nome do curso" id="nde:nomedocurso">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="Email" id="nde:email">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="Nome do cordenador" id="nde:nomedocordenador">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="1 Nome do professor" id="nde:1nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id=" 1 Carga horaria" id="nde:1cargahoraria"/>
+                    <field set="grupo" label-id=" 1 Titulo" id="nde:1titulo"/>
+                    <field set="grupo" label-id="2 Nome do professor" id="nde:2nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="2 Carga horaria" id="nde:2cargahoraria"/>
+                    <field set="grupo" label-id="2 Titulo" id="nde:2titulo"/>
+                    <field set="grupo" label-id="3 Nome do professor" id="nde:3nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="3 Carga horaria" id="nde:3cargahoraria"/>
+                    <field set="grupo" label-id="3 Titulo" id="nde:3titulo"/>
+                    <field set="grupo" label-id="4 Nome do professor" id="nde:4nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="4 Carga horaria" id="nde:4cargahoraria"/>
+                    <field set="grupo" label-id="4 Titulo" id="nde:4titulo"/>
+                    <field set="grupo" label-id="5 Nome do professor" id="nde:5nomedoprofessor">
+                        <control template="/org/alfresco/components/form/controls/textfield.ftl"/>
+                    </field>
+                    <field set="grupo" label-id="5 Carga horaria" id="nde:5cargahoraria"/>
+                    <field set="grupo" label-id="5 Titulo" id="nde:5titulo"/>
+                    <set id="response"/>
+                    <field set="response" id="transitions"/>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+</alfresco-configuration>

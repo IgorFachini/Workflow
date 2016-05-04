@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="-1" diagramTypeId="KickstartFormDiagram" name="inicio" snapToGrid="true" version="0.11.0">
+  <graphicsAlgorithm xsi:type="al:Rectangle" background="//@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@start/@color" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="1925930365"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="610" height="150" x="15" y="10">
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" background="//@colors.1" lineWidth="0" lineStyle="UNSPECIFIED" lineVisible="false" width="2" height="1000"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineStyle="UNSPECIFIED" lineVisible="true">
+        <points x="5" y="25"/>
+        <points x="610" y="25"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="0" filled="false" transparency="0.0" width="600" height="25" x="5" font="//@fonts.1" verticalAlignment="ALIGNMENT_TOP" value="Sobre"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1650061710"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="297" height="45" x="5" y="40">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" lineStyle="DASH" transparency="0.0" width="297" height="25" y="20" style="//@styles.1" cornerHeight="2" cornerWidth="2">
+          <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="2" y="4" id="org.activiti.designer.kickstart.gui.formnew.peopleselect.icon" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="297" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="PROACAD *"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="964640757"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="297" height="45" x="307" y="40">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" lineStyle="DASH" transparency="0.0" width="297" height="25" y="20" style="//@styles.1" cornerHeight="2" cornerWidth="2">
+          <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="2" y="4" id="org.activiti.designer.kickstart.gui.formnew.duedate.icon" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="297" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="Due date"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="507448412"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="297" height="45" x="5" y="95">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" lineStyle="DASH" transparency="0.0" width="297" height="25" y="20" style="//@styles.1" cornerHeight="2" cornerWidth="2">
+          <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="2" y="4" id="org.activiti.designer.kickstart.gui.formnew.numberinput.icon" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="297" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="Numero minimo de aprovadores *"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="659416252"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="297" height="45" x="307" y="95">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" lineStyle="DASH" transparency="0.0" width="297" height="25" y="20" style="//@styles.1" cornerHeight="2" cornerWidth="2">
+          <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="2" y="4" id="org.activiti.designer.kickstart.gui.formnew.priority.icon" stretchH="false" stretchV="false" proportional="false"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="297" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="Priority"/>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="656369047"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="610" height="100" x="15" y="170">
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" background="//@colors.1" lineWidth="0" lineStyle="UNSPECIFIED" lineVisible="false" width="2" height="1000"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineStyle="UNSPECIFIED" lineVisible="true">
+        <points x="5" y="25"/>
+        <points x="610" y="25"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="0" filled="false" transparency="0.0" width="600" height="25" x="5" font="//@fonts.1" verticalAlignment="ALIGNMENT_TOP" value="Cordenador"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1690431"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="297" height="45" x="5" y="40">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="297" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="297" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="Nome do cordenador"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="553505924"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="297" height="45" x="307" y="40">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="297" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="297" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="Email"/>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="320532765"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="610" height="100" x="15" y="280">
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" background="//@colors.1" lineWidth="0" lineStyle="UNSPECIFIED" lineVisible="false" width="2" height="1000"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="5" y="25"/>
+        <points x="610" y="25"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="0" filled="false" transparency="0.0" width="600" height="25" x="5" font="//@fonts.1" verticalAlignment="ALIGNMENT_TOP" value=""/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1025216977"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="600" height="45" x="5" y="5">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="600" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="600" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="Nome do curso *"/>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="331402961"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="610" height="315" x="15" y="390">
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" background="//@colors.1" lineWidth="0" lineStyle="UNSPECIFIED" lineVisible="false" width="2" height="1000"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineStyle="UNSPECIFIED" lineVisible="true">
+        <points x="5" y="25"/>
+        <points x="610" y="25"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="0" filled="false" transparency="0.0" width="600" height="25" x="5" font="//@fonts.1" verticalAlignment="ALIGNMENT_TOP" value="Grupo"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1952325559"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="5" y="40">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="1 Nome do professor *"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="201635669"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="206" y="40">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value=" 1 Carga horaria"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Integral"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="50353774"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="407" y="40">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value=" 1 Titulo"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Especialista"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1879235276"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="5" y="95">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="2 Nome do professor *"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1581473549"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="206" y="95">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="2 Carga horaria"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Integral"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1394941443"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="407" y="95">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="2 Titulo"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Especialista"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1687079412"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="5" y="150">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="3 Nome do professor *"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1495876679"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="206" y="150">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="3 Carga horaria"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Integral"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="332374508"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="407" y="150">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="3 Titulo"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Especialista"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="2130961908"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="5" y="205">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="4 Nome do professor *"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="2075463136"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="206" y="205">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="4 Carga horaria"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Integral"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="426056157"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="407" y="205">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="4 Titulo"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Especialista"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1268121074"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="5" y="260">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="5 Nome do professor *"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1269774727"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="206" y="260">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="5 Carga horaria"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Integral"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1489859718"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="196" height="45" x="407" y="260">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="196" height="25" y="20" style="//@styles.0" cornerHeight="2" cornerWidth="2"/>
+      </graphicsAlgorithm>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="196" height="20" font="//@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="5 Titulo"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="0" lineStyle="UNSPECIFIED" filled="false" width="196" height="23" x="3" y="21" verticalAlignment="ALIGNMENT_TOP" value="Especialista"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="30" height="25" x="171" y="20">
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" background="//@colors.2" lineWidth="0" filled="true" transparency="0.0">
+            <points/>
+            <points y="25"/>
+          </graphicsAlgorithmChildren>
+          <graphicsAlgorithmChildren xsi:type="al:Polygon" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="false" transparency="0.0">
+            <points x="18" y="9"/>
+            <points x="8" y="9"/>
+            <points x="13" y="16"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+  </children>
+  <styles foreground="//@colors.2" lineWidth="20" id="input-field-rectangle">
+    <renderingStyle>
+      <adaptedGradientColoredAreas definedStyleId="input-field-rectangle" gradientType="0">
+        <adaptedGradientColoredAreas styleAdaption="0">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="255" green="255" blue="255"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="3">
+              <color red="255" green="255" blue="255"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="3">
+              <color red="255" green="255" blue="255"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="171" green="171" blue="171"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+      </adaptedGradientColoredAreas>
+    </renderingStyle>
+  </styles>
+  <styles background="//@colors.3" foreground="//@colors.2" lineWidth="20" lineStyle="DASH" id="fixed-field-rectangle"/>
+  <colors red="227" green="238" blue="249"/>
+  <colors red="180" green="180" blue="180"/>
+  <colors/>
+  <colors red="255" green="255" blue="255"/>
+  <fonts name="Arial" size="8"/>
+  <fonts name="Arial" size="15"/>
+</pi:Diagram>
